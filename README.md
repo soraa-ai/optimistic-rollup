@@ -73,18 +73,6 @@ A style guide we follow for writing contracts can be found [here](./STYLE_GUIDE.
 | [`DeployerWhitelist`](./contracts/legacy/DeployerWhitelist.sol) | L2       | [`Proxy`](./contracts/universal/Proxy.sol) | Legacy contract for managing allowed deployers (unused since EVM Equivalence upgrade) |
 | [`L1BlockNumber`](./contracts/legacy/L1BlockNumber.sol)         | L2       | [`Proxy`](./contracts/universal/Proxy.sol) | Legacy contract for accessing latest known L1 block number, replaced by `L1Block`     |
 
-## Installation
-
-We export contract ABIs, contract source code, and contract deployment information for this package via `npm`:
-
-```shell
-npm install @eth-optimism/contracts-bedrock
-```
-
-## Contributing
-
-For all information about working on and contributing to Optimism's smart contracts, please see [CONTRIBUTING.md](./CONTRIBUTING.md)
-
 ## Deployment
 
 The smart contracts are deployed using `foundry` with a `hardhat-deploy` compatibility layer. When the contracts are deployed,
